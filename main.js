@@ -27,10 +27,10 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // Image slider functionality
-    let slides = document.getElementsByClassName("mySlides");
+    let slides = document.getElementsByClassName("mySlides fade");
 console.log(slides); // 
 if (slides.length === 0) {
-    console.error("No elements with class 'mySlides' found.");
+    console.error("No elements with class 'mySlides fade' found.");
 } else {
         slides[0].style.display = "block";  
     }
